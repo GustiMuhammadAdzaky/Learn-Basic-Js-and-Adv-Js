@@ -1,0 +1,37 @@
+//4:06
+
+event != events
+
+// what is event(apa itu event)
+event pada javascript merepresesntasikan sebuah kejadian yang terjadi didalam DOM
+... kejadian tersebut bisa dilakukan oleh user !
+(pada saat : mouse event, keyboard event, dll)
+ataupun dilakukan secara ptpmatis oleh API
+(Aniamsi selesai di jalankan !, halaman selesai di load, dll)
+
+
+// how to practice de events to javascript code?
+cara 'mendengarkan' event 
+- Event Handler
+    - inline HTML Atrribute
+    - Element Method
+- addEventListener()
+
+how to use ?
+- on<event> -> event berisikan apa yang dilakukan user misal click, contoh onclick
+
+
+Event Handelr Vs addEventListener, The question when we use the Method?
+perbedaanya adalah ketika kita memberikan lebih dari satu perubahan dari sebuah event, jika kita menggunakan Event Handeler maka perubahan yang terakhir akan menimpa perubahan sebelumnya, sedangkan addEventListener malah akan menambah perubahan sebelumnya !
+
+
+Daftar Event
+- Mouse Event
+- Keyboard Event
+- Resources Event
+- Focus Event
+- View Event
+- Form Event
+- Css Annimation & transition Event
+- Drag and Drop Event
+- dll

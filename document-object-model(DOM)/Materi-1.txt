@@ -1,0 +1,47 @@
+
+
+
+1. document adalah isi dari website(bagian dari window)
+2. object adalah sebuah nilai/tipe data pada javascript 
+contoh :
+let mhs = {
+    nama : "Gusti Muhamad Adzaky",  --> nama adalah property, isi dari nama tersebut adalah value
+    nrp : "181220091", nrp adalah property, isi dari nrp tersebut adalah value
+    email : [
+        "181220091@unmuhpnk.ac.id",
+        "zakygustu@gmail.com"
+    ],
+    hitungIpk : function (){
+        ... --> hutungIpk adalah Function/method
+    }
+}
+3. Model adalah representasi terhadapat sesuatu
+
+
+Kesimpulan :
+Representasi element HTML pada document untuk menjadi sebuah object {Sandhika Galih}
+
+
+4. Dom Tree akan sesuai dengan hirarki HTML yang kita tulis
+
+5. Document 
+
+- window
+    - document
+    - history
+    - location
+
+Window Lebih besar
+
+
+KESIMPULAN SEMUANYA :
+DOM 
+- antarmuka pemograman berbasis objek yang merepresentasikan dokumen website
+- Dom Membuat seluruh komponen halaman web dapat diakses dan di manipulasi 
+- Komponen yang bisa dimanipulasi
+    - element HTML
+    - attribut
+    - text
+    - dll
+- DOM dapat dimanipulasi (dibuat, diubah dihapus) menggunakan javascript 
+

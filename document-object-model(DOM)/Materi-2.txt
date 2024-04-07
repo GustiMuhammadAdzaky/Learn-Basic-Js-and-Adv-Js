@@ -1,0 +1,50 @@
+DOM TREE
+
+NodeList VS HTMLCollection
+
+1. apabila kita memilih salah satu simpul, itu di sembut Node misal ambil <p> -> jadi <p> adalah node
+2. apabila kita memilih lebih dari satu node disebut NodeList misal:
+    <h1>Coba 1</h1> -> NodeList
+    <p>Coba 2</p> -> NodeList
+    <p>Coba 3</p> -> NodeList
+3. HTMLCollection adalah kumpulan node yang tipenya Element saja
+misal :
+    <h1></h1> -> HTMLCollection
+    <p></p> -> HTMLCollection
+    <p></p> -> HTMLCollection
+
+
+
+NodeList VS HTMLCollection
+- NodeList merupakan kumpulan node
+- struktur datanya mirip array 
+- NodeList dapat berisi node apapun, sedangkan HTMLCollection harus berisi Element HTML
+    Penjelasan : Jadi begitu isinya HTML semua dia tipenya HTMLCollection yang bukan element HTML dia tipenya node NodeList
+- HTMLCollection bersifat live sedangkan NodeList Tidak
+
+
+struktur hirarki DOM TREE
+<html lang="en">
+<head>
+    <title>Web Programming Unpas</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>Paragraf 1</p>
+    <p>Paragraf 2</p>
+    <div>
+        <p>Paragraf 3</p>
+    </div>
+    <a href="halaman2.html">Ke Halaman 2</a>
+</body>
+</html>
+
+- Root Node
+    - node yang menjadi sumber dari node ;ain didalam DOM
+    - document
+- Perent Node
+    - node yang berada 1 tingkat diatas node yang lain
+    - body adalah Perent dari h1, p, p, div, dan a
+- Child Node
+    - node yang berada 1 tingkat dibawah node yang lain
+    - h1 adalah child dari body

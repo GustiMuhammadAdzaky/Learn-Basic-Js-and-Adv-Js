@@ -1,0 +1,16 @@
+Dom Selection Method
+
+
+1. getElementById() -> Memilih element yang ada di dalam dom berdasarkan id
+hasil = element
+2. getElementsByTagName() -> memilih Element beradasarkan Tag Name yang banyak
+hasil = HtmlCollection
+3. getElementByClassName() -> carikan element berdasarkan class tertentu(kelas itu bisa dimiliki oleh lebih dari 1 elemnt)
+hasil = HtmlCollection
+4. querySelector() -> mencari element berdasarkan selektor(seperti css)
+hasil = element
+5. querySelectorAll() -> mencari semua element berdasarkan selektor(seperti css)
+hasil = nodeList
+
+
+

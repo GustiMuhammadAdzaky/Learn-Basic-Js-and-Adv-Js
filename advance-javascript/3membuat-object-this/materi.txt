@@ -1,0 +1,4 @@
+Membuat Object pada javascript
+object literal
+function literal
+constructor function(keyword new)

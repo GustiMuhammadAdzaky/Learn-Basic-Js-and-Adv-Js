@@ -1,0 +1,20 @@
+Manipulasi Element
+
+element.innerHTML
+element.style.<property>
+element.setAttribute()
+element.classList
+.....
+
+
+
+manipulasi node
+document.createElement()
+document.createAttribute()
+node.appendChild()
+node.insertBefore()
+parentNode.removeChild()
+parentNode.replaceChild()
+....
+
+
