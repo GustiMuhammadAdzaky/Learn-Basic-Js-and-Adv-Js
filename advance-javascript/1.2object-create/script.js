@@ -10,21 +10,21 @@
 // };
 
 // 2. Funtion Declaration
-const methodMahasiswa = {
-  makan: function (porsi) {
-    this.energi += porsi;
-    console.log(`Hallo ${this.nama}, selamat makan!`);
-  },
-  main: function (jam) {
-    this.energi -= jam;
-    console.log(`Hallo ${this.nama}, selamat bermain!`);
-  },
+// const methodMahasiswa = {
+//   makan: function (porsi) {
+//     this.energi += porsi;
+//     console.log(`Hallo ${this.nama}, selamat makan!`);
+//   },
+//   main: function (jam) {
+//     this.energi -= jam;
+//     console.log(`Hallo ${this.nama}, selamat bermain!`);
+//   },
 
-  tidur: function (jam) {
-    this.energi += jam * 2;
-    console.log(`Hallo ${this.nama}, selamat tidur!`);
-  },
-};
+//   tidur: function (jam) {
+//     this.energi += jam * 2;
+//     console.log(`Hallo ${this.nama}, selamat tidur!`);
+//   },
+// };
 
 function mahasiswa(nama, energi) {
   let mhs = {};
@@ -34,7 +34,6 @@ function mahasiswa(nama, energi) {
   mhs.makan = methodMahasiswa.makan;
   mhs.main = methodMahasiswa.main;
   mhs.tidur = methodMahasiswa.tidur;
-
   return mhs;
 }
 
