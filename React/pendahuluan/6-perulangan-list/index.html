@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <title>Iterasi</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+        const familys = ["abah", "umak", "adek", "abang"]
+
+        function Header(props) {
+            return(
+                <h1>Hello {props.name ? props.name : "kamu belum memberi nama"}</h1>
+            );
+        }
+
+
+        function HomePage() {
+           return(
+            <div>
+                <Header name="zaky"/>
+                <ul>
+                    {
+                        familys.map((family) =>
+                            <li key={family}>{family}</li>
+                        )
+                    }
+                </ul>
+            </div>
+           );
+        }
+        root.render(<HomePage/>);
+    </script>
+</body>
+</html>

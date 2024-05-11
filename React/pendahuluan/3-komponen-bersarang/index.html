@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <title>komponen bersarang</title>
+    <style>
+        li{
+            display: inline;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+        const container = document.getElementById("root");
+        const root = ReactDOM.createRoot(container);
+
+        function Navbar() {
+            return(
+                <div>
+                    <li>Home</li>
+                    <li>Portfolio</li>
+                    <li>About</li>
+                </div>   
+            );
+        }
+
+        function Header() {
+            return(
+                <h1>ini adalah header dari zaky</h1>
+            );
+        }
+
+        function HomePage() {
+            return(
+                <>
+                    <Navbar/>
+                    <Header/>
+                </>
+            );
+        }
+
+        root.render(<HomePage/>)
+    </script>
+</body>
+</html>
